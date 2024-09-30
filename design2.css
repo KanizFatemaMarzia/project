@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+}    
+    
+body{
+
+font-family:'Open Sans', sans-serif;
+
+}    
+    
+    
+header {
+
+width:100%;
+padding: 15px 0;
+
+}
+
+.Wrapper{
+
+    width: 80%;
+    margin : 0 auto ;
+}
+
+.Content{
+
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+header .Content .Logo img{
+
+    width: 100px ;
+ }
+
+ header .Content .Menu ul li {
+
+     display : inline-block;
+     list-style-type: none;
+     margin-right:25px;
+
+
+ }
+
+ header .Content .Menu ul li a {
+
+    text-decoration: none;
+    color:#1e266d;
+    font-size:18px;
+
+
+}
+
+.Button button {
+
+    background-color:darkblue;
+    font-size: 16px;
+    color:white;
+    padding: 10px 20px ;
+    border: 1px solid darkblue;
+}
+
+.Button button:hover {
+
+    background-color: rgb(86, 155, 246);
+    
+}
+
+.banner-section .Wrapper{
+
+    width: 80%;
+    margin : 0 auto ;
+}
+
+.banner-section .Content{
+
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  margin:15px;
+  margin-right:2px;
+
+}
+
+.banner-section .Menu{
+
+    display:flex;
+  }
+.banner-section .Menu .a button {
+
+    background-color:darkblue;
+    font-size: 16px;
+    color:white;
+    padding: 10px 20px ;
+    border: 1px solid darkblue;
+}
+.banner-section .Menu .b button{
+
+    background-color:white;
+    font-size: 16px;
+    color:black;
+    padding: 10px 20px ;
+    border: 1px solid white;
+}
+
+.banner-section .Menu .b button:hover {
+
+    background-color: darkblue;
+    color:white;
+    
+}
+
+/* CSS for section-2 */
+
+.banner2-section .Wrapper h1{
+
+color: rgb(3, 3, 56);
+padding-bottom:40px;
+padding-top:40px;
+padding-left:15px;
+font-size: 26px;
+
+} 
+
+.banner2-section .box-2 {
+
+align-items: center;
+display:flex;
+justify-content:space-evenly;
+
+
+}
+
+.banner2-section .box-2 .a button, .banner2-section .box-2 .b button, .banner2-section .box-2 .c button , .banner2-section .box-2 .d button , .banner2-section .box-2 .e button {
+
+background-color:#f5f7fa;
+width: 15vw;
+height:30vh;
+border-radius:8px;
+border-color:white;
+
+}
+
+.banner2-section .box-2 .a img, .banner2-section .box-2  .b img, .banner2-section .box-2  .c img, .banner2-section .box-2 .d img, .banner2-section .box-2 .e img{
+
+    width:100px;
+    height:100px;
+    padding:15px;
+}
+
+.banner2-section .box-2 .a button p, .banner2-section .box-2  .b button p , .banner2-section .box-2  .c button p, .banner2-section .box-2 .d button p, .banner2-section .box-2 .e button p{
+
+font-size:16px;
+font-weight: 300;
+
+
+}
+
+.banner3-section .box-3 h1 {
+
+    color: rgb(3, 3, 56);
+    padding-bottom:40px;
+    padding-top:45px;
+    padding-left:15px;
+    font-size: 26px;
+
+}
+
+/* CSS for section-4 */
+
+
+.banner4-section .Wrapper h1{
+
+    color: rgb(3, 3, 56);
+    padding-bottom:40px;
+    padding-top:40px;
+    padding-left:15px;
+    font-size: 26px;
+    
+    } 
+    
+    .banner4-section .box-4 {
+    
+    align-items: center;
+    display:flex;
+    justify-content:space-evenly;
+    
+    
+    }
+    
+    
+    .banner4-section .box-4 .a img, .banner4-section .box-4  .b img, .banner4-section .box-4 .c img{
+    
+         height:25vh;
+         width:25vw;
+         display:flex;
+        
+    }
+    
+    .banner5-section .box-5 .a button, .banner5-section .box-5  .b button, .banner5-section .box-5 .c button{
+    
+    width:20vw;
+    height:20vh;
+    border-radius: 12px;
+    background-color: white;
+    border-color: white;
+    
+    }
+
+    .banner4-section .box-4 .a button p, .banner4-section .box-4  .b button p , .banner4-section .box-4  .c button p{
+    
+        font-size:16px;
+        font-weight: 300;
+    
+        
+    }
+
+.banner5-section .Wrapper {
+
+    width:90%;
+   
+}
+
+.banner5-section .box-5 {
+    
+    align-items: center;
+    display:flex;
+    justify-content:space-evenly;
+    
+    
+}
+
+.banner5-section .box-5 .a button pre, .banner5-section .box-5  .b button pre, .banner5-section .box-5 .c button pre{
+    
+    font-size:16px;
+    font-weight: 300;
+    text-align: left ;
+
+    
+}
+
+/* CSS for section - 11 */
+
+
+
+.banner11-section .box-11 {
+
+    margin-top:70px;
+    width:auto;
+    height:40vh;
+    background-color:rgb(0, 52, 119);
+    border-radius: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+    justify-content: space-between;
+    display : flex;
+    align-items: center;
+    
+} 
+
+.banner11-section .box-11 .left, .banner11-section .box-11 .right{ 
+
+    background-color:rgb(0, 52, 119) ;
+    text-align: left;
+    width:auto;
+    height:25vh;
+    
+}
+
+.banner11-section .box-11 .right{ 
+    
+    padding-right:80px;
+
+}
+
+.banner11-section .box-11 .left h1, .banner11-section .box-11 .right h1{
+
+color: white;
+font-weight:500;
+font-size: 26px;
+line-height: 50px;
+padding-left:120px;
+}
+
+.banner11-section .box-11 .left pre, .banner11-section .box-11 .right pre{
+
+    color: white;
+    font-weight:200;
+    font-size: 16px;
+
+}
+
+/* CSS for section-12 */
+
+.banner12-section .box-12 {
+
+    display : flex;
+    align-items: center; 
+    justify-content:space-evenly; 
+    padding-bottom: 30px;
+    
+}
+
+.banner12-section .box-12 .a button, .banner12-section .box-12 .b button,.banner12-section .box-12 .c button,.banner12-section .box-12 .d button { 
+
+    background-color: white;
+    height:20vh;
+    width:auto;
+    border:10px solid white;
+    margin-top:10px;
+    margin-right:10px;
+}
+
+.banner12-section .box-12 .a p, .banner12-section .box-12 .b p,.banner12-section .box-12 .c p, .banner12-section .box-12 .d p { 
+
+    font-size:14px;
+    font-weight:200;
+    color :rgba(34, 33, 33, 0.556);
+    padding-top:10px;
+    line-height:20px;
+    text-align: left;
+
+}
+ 
+.banner12-section .box-12 .a button h2, .banner12-section .box-12 .b button h2,.banner12-section .box-12 .c button h2 ,.banner12-section .box-12 .d button h2 { 
+
+    font-size:18px;
+    font-weight:600;
+    color :rgb(1, 1, 42);
+    padding-top:30px;
+    line-height:30px;
+    text-align: left; 
+
+}
+ 
+.image img {
+
+    padding-top:50px;
+    width:70%;
+    margin-left: 200px;
+    padding-bottom: 40px;
+
+
+}
+
+.last_part a{
+
+color:rgba(40, 35, 35, 0.826);
+font-weight: 400;
+padding-bottom: 30px;
+margin-left: 500px;
+}
+ 
+
